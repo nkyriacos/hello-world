@@ -1,0 +1,220 @@
+h1.home {
+	text-align: center;
+	font-family: cursive;
+}
+
+nav {
+	background-color:green;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;	
+}
+
+
+#wrap{
+    width:70%;
+    margin: 0 auto;
+}
+
+body.home{
+    font-family: cursive;
+    background-color: ;
+    margin: 20px;
+    padding:20px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+	background-image: linear-gradient(red, blue)
+}
+
+body.summer {
+	 font-family: cursive;
+    background-color: ;
+    margin: 20px;
+    padding:20px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+	background-image: linear-gradient(orange, red )
+	
+}
+
+body.winter{
+	 font-family: cursive;
+    background-color: ;
+    margin: 20px;
+    padding:20px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+	background-image: linear-gradient(blue, white)
+}
+
+body.spring {
+ font-family: cursive;
+    background-color: ;
+    margin: 20px;
+    padding:20px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+	background-image: linear-gradient(green, blue)
+}
+
+body.fall {
+	 font-family: cursive;
+    background-color: ;
+    margin: 20px;
+    padding:20px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+	background-image: linear-gradient(yellow,orange)
+}
+
+img.home {
+	height: 300px;
+	width: 100%;
+	padding-left:0;
+}
+
+img.s {
+	height: 50px;
+    width; 10px;
+    
+    padding: 10px 15px;
+}
+
+img.summer{
+	height: 300px;
+	width: 100%;
+	padding-left:0;
+}
+
+img.winter{
+	height: 300px;
+	width: 100%;
+	padding-left: 0;
+}
+
+img.spring{
+	height: 300px;
+	width: 100%;
+	padding-left: 0;
+}
+
+img.fall{
+	height: 300px;
+	width: 100%;
+	padding-left: 0;
+}
+
+img.summerCartoon{
+	height: 300px;
+	width: 100%;
+	padding-left:0;
+}
+
+img.winterCartoon{
+	height: 300px;
+	width: 100%;
+	padding-left:0;
+}
+
+img.fallCartoon{
+	height: 300px;
+	width: 100%;
+	padding-left:0;
+}
+
+img.springCartoon{
+	height: 300px;
+	width: 100%;
+	padding-left:0;
+}
+
+
+
+h1.summer{
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(orange, yellow);
+}
+
+h1.winter{
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(white, blue);
+}
+
+h1.spring{
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(pink, blue);
+}
+
+h1.fall{
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(yellow, red);
+}
+
+h2.h2 {
+	text-align: center;
+	font-family: cursive;
+	background-image: linear-gradient(pink, red);
+}
+
+h2.summer {
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(orange, yellow);
+}
+
+h2.winter {
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(blue, white);
+}
+
+h2.spring {
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(pink, blue);
+}
+
+h2.fall {
+	text-align:center;
+	font-family: cursive;
+	background-image: linear-gradient(yellow, red);
+}
+
+p.summer {
+	text-align:center;
+	font-family:cursive;
+	font-size: 30px;
+}
+
+p.winter {
+	text-align:center;
+	font-family:cursive;
+	font-size: 30px;
+}
+
+p.spring {
+	text-align:center;
+	font-family:cursive;
+	font-size: 30px;
+}
+
+p.text{
+	text-align:center;
+	font-family:cursive;
+	font-size: 30px;;
+}
+
+p.fall {
+	text-align:center;
+	font-family:cursive;
+	font-size: 30px;
+}

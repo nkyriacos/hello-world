@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+	<head>
+		<title>The Four Seasons Index</title>
+		<link href = "FourSeasons.css" rel = "stylesheet" type= "text/css">
+	</head>
+
+	<body>
+		<div id="wrap">
+		<header>
+			<h1 class="home">The Four Seasons</h1>
+		</header>
+		
+			<nav>
+			</nav>
+		
+		</div>
+	</body>
+</html>

@@ -1,0 +1,131 @@
+#wrap{
+    width:70%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: cursive;
+    background-color: black;
+    margin: 20px;
+    padding:20px;
+    
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+header img{ width: 60%
+}
+header{
+    font-family:fantasy;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding:0;
+
+   
+    background-size: auto;
+    background-image: linear-gradient(#3498DB, black)
+}
+
+h1.win {
+	font-family: Helvetica;
+	background-image: linear-gradient(white, blue)
+}
+
+h1.spring {
+	font-family: Helvetica;
+	background-image: linear-gradient(purple, white)
+}
+nav{
+    background-color:#3498DB;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+img.home{
+    height: 50px;
+    width; 10px;
+    
+    padding: 10px 15px;
+}
+
+img.navbar{
+    height: 35px;
+    width; 10px;
+    padding: 10px 10px;
+}
+
+img.specail{
+    height: 35px;
+    width; 100px;
+    
+    padding: 10px 10px;
+}
+
+nav a:hover{
+    color: blue;
+    
+    text-decoration: underline;
+}
+nav li{
+    display: inline;
+   
+}
+#this {
+    text-align: center;
+}
+
+img.big{
+    width: 50%;
+    float: right;
+    padding-bottom: 10px;
+}
+
+img.ted{
+    height: 200px;
+    width: 95%;
+    
+    
+  
+}
+
+p.text{
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    padding: 10px;
+    background-color: white;
+    overflow: auto;
+}
+
+a.button:hover{
+    background-color: black;
+}
+
+
+footer{
+    background-color: #3480DB
+        ;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+ background-color: royalblue;
+    color: yellow;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    display: inline-block;
+    
+}
