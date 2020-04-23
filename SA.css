@@ -106,7 +106,42 @@ footer p{
 	font-size:11px;
 	padding:30px 0px 0px 0px;
 	text-align:center;
-	
+}
+
+form {
+	width:50%;
+	margin:0 auto;
+}
+
+textarea{
+	width:50%;
+}
+
+fieldset {
+	background:linear-gradient(#007a4d,#ffb612);
+	border-radius:1em;
+}
+
+legend {
+	font-size:30px;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-weight:bold;
+	font-size:30px;
+	color:Black;
+	padding:0px 10px;
+}
+
+input {
+	background-color:white;
+}
+
+.button {
+	background-color:navy;
+	color:white;
+	font-size:1.5em;
+	font-variant:small-caps;
 }
 @media screen and (max-width: 600px){
 	body{

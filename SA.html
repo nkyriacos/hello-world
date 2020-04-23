@@ -13,7 +13,16 @@
 		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163993045-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
+		gtag('config', 'UA-163993045-1');
+</script>
 
 	</head>
 	
@@ -29,6 +38,7 @@
 				<li><a href = "History.html">History</a></li>
 				<li><a href = "Wildlife.html">Wildlife</a></li>
 				<li><a href = "Sports.html">Sports</a></li>
+				<li><a href = "Sports.html">Membership</a></li>
 			</ul>
 		</nav>
 		
@@ -51,6 +61,38 @@
 				<p>South Africa is a country on the southernmost tip of the African continent, marked by several distinct ecosystems. Inland safari destination Kruger National Park is populated by big game. The Western Cape offers beaches, lush winelands around Stellenbosch and Paarl, craggy cliffs at the Cape of Good Hope, forest and lagoons along the Garden Route, and the city of Cape Town, beneath flat-topped Table Mountain.</p>
 				<iframe width="945" height="315" src="https://www.youtube.com/embed/Q759uUg1xFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		    </article>
+			<form method="post" action="../table.html">
+			<fieldset>
+			<legend>Tell us about yourself!</legend>
+				<p><label for="fname" >First Name</label><br>
+				<input type="text" id="fname" name="fname"required></p>
+				
+				<p><label for="lname">Last Name</label><br>
+				<input type="text" id="lname" name="lname"></p>
+				
+				<p><label for="email">email</label><br>
+				<input type="email" id="email" name="email"></p>
+				
+				<p><label for="phone">phone</label><br>
+				<input type="tel" id="phone" name="phone"></p>
+				
+				<p>How did you hear about this website?</p>
+				
+				<p><input type="checkbox" id="search" name="how" value="searchEngine"><label for="search">Search Engine</label><br>
+				
+				<input type="checkbox" id="ad" name="how" value="ad"><label for="ad">Advert</label><br></p>
+				
+				<p>Have you been to South Africa before?</p>
+				
+				<input type="radio" name="before" id="yes" value="yes"><label for="yes">Yes</label><br>
+				<input type="radio" name="before" id="no" value="no"><label for="no">No</label><br>
+				
+				<p>Please leave your comments below</p>
+				<textarea name="comments" id="comments"  placeholder="leave a comment"></textarea>
+				
+				<p><input type="submit" name="submit" value="submit form" class="button"></p>
+				</fieldset>
+			</form>
 			<a class="twitter-timeline" data-width="945" data-height="250" href="https://twitter.com/SouthAfrica?ref_src=twsrc%5Etfw">Tweets by SouthAfrica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			
 		</section>
